@@ -1,0 +1,110 @@
+<!-- Deploy ✓ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Front-End Developer Portfolio" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Assets/Css/Components/global.css " />
+    <link rel="stylesheet" href="Assets/Css/Components/nav.css" />
+    <link rel="stylesheet" href="Assets/Css/Components/home.css" />
+    <link rel="stylesheet" href="Assets/Css/Components/about.css" />
+    <link rel="stylesheet" href="Assets/Css/Components/resume.css" />
+    <script type="module" src="Assets/Js/home.js" defer></script>
+
+    <title>Home</title>
+  </head>
+  <body>
+    <!--Section Nav-->
+    <nav id="Nav">
+      <div class="ContainNav">
+        <ul class="Logo">
+          <li>
+            <a href="https://chang3mymind.github.io/Portfolio">Matheus</a>
+          </li>
+        </ul>
+        <div class="Menu">
+          <div class="MenuIcon">&#9776;</div>
+          <div class="Overlay"></div>
+          <ul class="MenuLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!--Section Home-->
+      <div class="Principal">
+        <div class="Descrição">
+          <h1 id="Im" class="Texto">I AM MATHEUS MATTOS</h1>
+          <h2 id="Developer" class="Texto">Front-End Developer</h2>
+          <button type="button" id="BContact" aria-label="Open Menu">
+            Contact Me
+          </button>
+        </div>
+        <div class="Foto">
+          <img src="Assets/Img/Face_Foto.png" alt="A picture of a men" />
+        </div>
+      </div>
+
+      <!--Section About-->
+      <section id="About">
+        <div class="ContainLeft">
+          <h1>About Me</h1>
+          <h2>I am Front-End Developer</h2>
+          <p>
+            Desenvolvedor Front-End focado em criar experiências digitais
+            modernas, responsivas e intuitivas. Apaixonado por transformar
+            designs em interfaces funcionais e atrativas.
+          </p>
+        </div>
+        <div class="About-Foto">
+          <img
+            src="https://www.shutterstock.com/image-vector/picture-icon-260nw-323592404.jpg"
+            alt="Minha Foto"
+          />
+        </div>
+      </section>
+
+      <!--Section Resume-->
+      <section id="Resume">
+        <div class="ContainResume">
+          <div class="ContainTitle">
+            <h1>My Resume</h1>
+          </div>
+
+          <div class="ContentArea">
+            <div class="ContainText">
+              <h3>Experience</h3>
+              <h2>
+                Building solid experience through personal projects, courses,
+                and continuous learning as a <span>Front-End Developer</span>
+              </h2>
+            </div>
+
+            <!--Timeline div-->
+            <div class="Timeline">
+              <!--Timeline Itens-->
+              <div class="TimelineItem">
+                <div class="Dot"></div>
+                <div class="Content">
+                  <h3>Portfolio Website</h3>
+                  <p>Front-End Project (2025 - Present)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
