@@ -1,51 +1,32 @@
-#Resume {
-  background-color: var(--box-bg);
-  width: 100%;
-  max-width: 1200px;
-  margin: 65px auto;
-  height: 600px;
-}
-
-.ContainResume {
-  width: 100%;
+.Contain-Main {
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .ContainTitle {
   text-align: center;
-  margin-bottom: 40px;
-}
-
-.ContainTitle h1 {
-  font-size: 35px;
-  color: var(--accent-color-light);
-  font-family: "Poppins", sans-serif;
-  padding: 40px 0px;
 }
 
 .ContentArea {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 250px;
+  gap: 350px;
 }
 
 /* Texto à esquerda */
 .ContainText {
   max-width: 500px;
-  font-family: "Poppins", sans-serif;
-  padding: 0px 40px;
+}
+
+.ContainTitle h1 {
+  color: var(--accent-color-light);
 }
 
 .ContainText h3 {
-  font-size: 25px;
   color: var(--accent-color-light);
-  margin-bottom: 30px;
 }
 
 .ContainText h2 {
-  font-size: 27px;
   color: var(--text-color);
-  line-height: 1.5;
 }
 
 .ContainText h2 span {
@@ -55,22 +36,21 @@
 /* Timeline div / Timeline left line */
 .Timeline {
   position: relative;
-  border-left: 3px solid var(--accent-color);
-  padding-left: 40px;
+  border-left: 2px solid var(--accent-color);
+  padding-left: 35px;
   flex: 1;
 }
 
 /*Timeline itens */
 .TimelineItem {
   position: relative;
-  margin-bottom: 20px;
 }
 
 /*Timeline Ball*/
 .Dot {
   position: absolute;
   left: -30px;
-  top: 0;
+  top: 7px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -80,14 +60,12 @@
 
 /*Timeline Text*/
 .Content h3 {
-  font-size: 18px;
   color: var(--text-color);
+  margin-bottom: 0;
 }
 
 .Content p {
   color: var(--text-color);
-  font-size: 15px;
-  margin-top: 5px;
 }
 
 /*Ajustes para telas menores*/

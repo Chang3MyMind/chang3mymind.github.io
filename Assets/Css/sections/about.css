@@ -1,49 +1,30 @@
-#About {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  background-color: var(--box-bg);
-  width: 100%;
-  max-width: 1200px;
-  margin: 65px auto;
-  height: 380px;
-}
-
 .ContainLeft {
   flex: 1;
-  padding: 40px;
-  font-family: "Poppins", sans-serif;
+  margin-left: 20px;
 }
 
 .ContainLeft h1 {
-  font-size: 25px;
   color: var(--accent-color-light);
-  margin-bottom: 55px;
 }
 
 .ContainLeft h2 {
-  font-size: 40px;
   color: var(--text-color);
-  margin-bottom: 30px;
 }
 
 .ContainLeft p {
-  font-size: 15px;
   color: var(--text-color);
-  line-height: 1.7;
 }
 
-.About-Foto {
-  width: 525px;
-  height: 380px;
+.About-Picture {
+  width: 400px;
+  height: 400px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 15px;
 }
 
-.About-Foto img {
+.About-Picture img {
   width: 100%;
   height: 100%;
   object-fit: cover;

@@ -1,26 +1,4 @@
-body {
-  background-color: var(--bg-color);
-}
-
-/* Concerto de bug da barra de navegação flicando*/
-body.fixed-padding {
-  padding-top: 0px;
-}
-
-/*Css principal*/
-.Principal {
-  background-color: var(--box-bg);
-  justify-self: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 1200px;
-  margin: 65px auto;
-  height: 450px;
-}
-
-.Foto {
+.Picture {
   width: 200px;
   height: 200px;
   display: flex;
@@ -35,7 +13,7 @@ body.fixed-padding {
   margin-right: 70px;
 }
 
-.Foto img {
+.Picture img {
   width: 190%;
   height: 190%;
   object-fit: cover;
@@ -43,30 +21,17 @@ body.fixed-padding {
   transform: rotate(-45deg);
 }
 
-.Descrição {
+.Contain-Description {
   background-color: var(--box-bg);
-  justify-content: flex-start;
-  align-items: center;
-  margin-left: 80px;
+  margin-left: 30px;
 }
 
-.Descrição .Texto {
+.Contain-Description .Text {
   background-color: var(--box-bg);
   color: var(--text-color);
-  font-weight: bold;
-  font-family: "Poppins", sans-serif;
-  display: flex;
 }
 
-.Descrição #Im {
-  font-size: 20px;
-  padding: 15px 0px;
-}
-
-.Descrição #Developer {
-  font-size: 40px;
-  padding: 15px 0px 30px;
-
+.Contain-Description .Developer {
   /* Texto em gradiente de cores*/
   background: linear-gradient(
     to right,
@@ -76,28 +41,6 @@ body.fixed-padding {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-
-#BContact {
-  font-family: "Poppins", sans-serif;
-
-  /* Cor do botão*/
-  background: linear-gradient(
-    to right,
-    var(--accent-color),
-    var(--accent-color-light)
-  );
-  color: var(--text-color);
-  border: none;
-  padding: 12px 24px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: transform 0.2s ease, filter 0.3s ease;
-}
-
-#BContact:hover {
-  transform: scale(1.01);
-  filter: brightness(1.01);
 }
 
 /*Ajustes para telas menores*/

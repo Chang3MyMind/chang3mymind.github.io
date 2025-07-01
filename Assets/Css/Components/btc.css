@@ -1,0 +1,38 @@
+.BtcBlue {
+  background: linear-gradient(
+    to right,
+    var(--accent-color),
+    var(--accent-color-light)
+  );
+  color: var(--text-color);
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.3s ease;
+}
+
+.BtcBlue:hover {
+  transform: scale(1.01);
+  filter: brightness(1.01);
+}
+
+.BtcTransparent {
+  color: var(--text-color);
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.3s ease;
+}
+
+.BtcTransparent:hover {
+  background: linear-gradient(
+    to right,
+    var(--accent-color),
+    var(--accent-color-light)
+  );
+  color: var(--text-color);
+  border: 1px solid var(--accent-color);
+}
