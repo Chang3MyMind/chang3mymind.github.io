@@ -1,4 +1,4 @@
-import { toggleMenu } from "../js/nav.js";
+import { toggleMenu } from "./nav.js";
 
 const menuIcon = document.querySelector(".MenuIcon");
 const overlay = document.querySelector(".Overlay");
