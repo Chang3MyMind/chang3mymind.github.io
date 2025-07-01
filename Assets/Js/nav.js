@@ -1,10 +1,16 @@
-export function toggleMenu() {
+function toggleMenu() {
   const menu = document.querySelector(".MenuLinks");
   const overlay = document.querySelector(".Overlay");
 
   menu.classList.toggle("active");
   overlay.classList.toggle("active");
 }
+
+const menuIcon = document.querySelector(".MenuIcon");
+const overlay = document.querySelector(".Overlay");
+
+menuIcon.addEventListener("click", toggleMenu);
+overlay.addEventListener("click", toggleMenu);
 
 /*Colocando a barra de navegação presa emcima ao scrolar */
 const nav = document.querySelector("nav");
