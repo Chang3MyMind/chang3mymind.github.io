@@ -1,0 +1,155 @@
+.Picture {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+  overflow: hidden;
+  transform: rotate(45deg);
+  border-radius: 16px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+  background-color: var(--box-bg);
+  margin-right: 70px;
+}
+
+.Picture img {
+  width: 190%;
+  height: 190%;
+  object-fit: cover;
+  object-position: center 25px;
+  transform: rotate(-45deg);
+}
+
+.Contain-Description {
+  background-color: var(--box-bg);
+  margin-left: 30px;
+}
+
+.Contain-Description .Text {
+  background-color: var(--box-bg);
+  color: var(--text-color);
+}
+
+.Contain-Description .Developer {
+  /* Texto em gradiente de cores*/
+  background: linear-gradient(
+    to right,
+    var(--accent-color),
+    var(--accent-color-light)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/*Ajustes para telas menores*/
+
+@media (max-width: 880px) {
+  .Foto {
+    width: 100px;
+    height: 100px;
+    padding: 8.5px;
+    margin-right: 45px;
+  }
+
+  .Principal {
+    margin: 55px auto;
+    width: 100%;
+    max-width: 880px;
+    height: 225px;
+  }
+
+  .Foto img {
+    width: 190%;
+    height: 190%;
+    object-position: center 16px;
+  }
+
+  .Descrição {
+    margin-left: 50px;
+  }
+
+  .Descrição #Im {
+    font-size: 15px;
+    padding: 7.5px 0px;
+  }
+
+  .Descrição #Developer {
+    font-size: 25px;
+    padding: 7.5px 0px 15px;
+  }
+
+  #BContact {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 510px) {
+  .Foto {
+    width: 70px;
+    height: 70px;
+    padding: 6px;
+    margin-right: 25px;
+  }
+
+  .Principal {
+    margin: 55px auto;
+    width: 100%;
+    max-width: 510px;
+  }
+
+  .Foto img {
+    object-position: center 8px;
+  }
+
+  .Descrição {
+    margin-left: 25px;
+  }
+
+  .Descrição #Im {
+    font-size: 12px;
+    padding: 7.5px 0px;
+  }
+
+  .Descrição #Developer {
+    font-size: 20px;
+    padding: 7.5px 0px 15px;
+  }
+
+  #BContact {
+    padding: 6px 12px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  .Foto {
+    margin-right: 15px;
+  }
+
+  .Principal {
+    margin: 45px auto;
+    width: 100%;
+    max-width: 510px;
+    height: 200px;
+  }
+
+  .Descrição {
+    margin-left: 10px;
+  }
+
+  .Descrição #Im {
+    font-size: 10px;
+  }
+
+  .Descrição #Developer {
+    font-size: 18px;
+  }
+
+  #BContact {
+    padding: 6px 12px;
+    font-size: 10px;
+  }
+}
