@@ -30,7 +30,7 @@ Este projeto é parte do meu desenvolvimento profissional.
 1️⃣ Clone o repositório:
 
 ```bash
-git clone https://github.com/Chang3MyMind/Portfolio
+git clone hhttps://github.com/Chang3MyMind/chang3mymind.github.io.git
 ```
 
 2️⃣ Clone o repositório:

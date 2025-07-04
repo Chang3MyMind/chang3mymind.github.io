@@ -28,7 +28,7 @@ window.addEventListener("scroll", () => {
   const nav = document.querySelector("nav");
   const body = document.querySelector("body");
 
-  if (window.scrollY > 80) {
+  if (window.scrollY > 90) {
     nav.classList.add("fixed");
     body.classList.add("fixed-padding");
   } else {
