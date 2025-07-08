@@ -1,8 +1,20 @@
 @media (max-width: 1024px) {
 }
+.contain {
+  max-width: 1024px;
+  width: 100%;
+}
 
 @media (max-width: 768px) {
+  .contain {
+    max-width: 768px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
+  .contain {
+    max-width: 480px;
+    width: 100%;
+  }
 }
