@@ -15,6 +15,11 @@
 @import url(sections/home.css);
 @import url(sections/resume.css);
 
+/*Estilização do carrosel*/
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css);
+
 /*Padronização de estilos*/
 body {
   font-family: "Poppins", sans-serif;

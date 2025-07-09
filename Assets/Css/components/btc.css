@@ -1,4 +1,4 @@
-.BtcBlue {
+.BtBlue {
   background: linear-gradient(
     to right,
     var(--accent-color),
@@ -12,12 +12,12 @@
   transition: transform 0.2s ease, filter 0.3s ease;
 }
 
-.BtcBlue:hover {
+.BtBlue:hover {
   transform: scale(1.01);
   filter: brightness(1.01);
 }
 
-.BtcTransparent {
+.BtTransparent {
   color: var(--text-color);
   background-color: transparent;
   border: 1px solid var(--accent-color);
@@ -27,7 +27,7 @@
   transition: transform 0.2s ease, filter 0.3s ease;
 }
 
-.BtcTransparent:hover {
+.BtTransparent:hover {
   background: linear-gradient(
     to right,
     var(--accent-color),

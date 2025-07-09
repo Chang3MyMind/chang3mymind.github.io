@@ -14,8 +14,24 @@
     <link rel="stylesheet" href="Assets/Css/global.css" />
 
     <!--Import de JavaScript-->
-    <script type="module" src="Assets/Js/home.js" defer></script>
     <script type="module" src="Assets/Js/nav.js"></script>
+    <script type="module" src="Assets/Js/home.js" defer></script>
+    <script type="module" src="Assets/Js/resume.js" defer></script>
+
+    <!--Corrosel js-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <title>Portfolio</title>
   </head>
@@ -48,7 +64,7 @@
         <div class="Contain-Description">
           <h1 class="Text text-md">I AM MATHEUS MATTOS</h1>
           <h2 class="Text text-xlg Developer">Front-End Developer</h2>
-          <button type="button" class="BtcBlue" aria-label="Open Menu">
+          <button type="button" class="BtBlue" aria-label="Open Menu">
             Contact Me
           </button>
         </div>
@@ -77,36 +93,92 @@
       </section>
 
       <!--Section Resume-->
-      <section id="Resume" class="Contain Contain-Main">
-        <div class="ContainResume">
-          <div class="ContainTitle"><h1 class="text-lg">My Resume</h1></div>
+      <section id="Resume">
+        <div class="Contain-carousel">
+          <!-- TÍTULO FIXO -->
+          <div class="Resume-Header">
+            <div class="ContainTitle">
+              <h1 class="text-lg">My Resume</h1>
+            </div>
+          </div>
 
-          <div class="ContentArea">
-            <div class="ContainText">
-              <h3 class="text-md">Experience</h3>
-              <h2 class="text-lg">
-                Building solid experience through personal projects, courses,
-                and continuous learning as a <span>Front-End Developer</span>
-              </h2>
+          <!-- CARROSSEL -->
+          <div class="owl-carousel">
+            <!-- Slide 1 -->
+            <div class="Contain Contain-Main">
+              <div class="ContainResume">
+                <div class="ContentArea">
+                  <div class="ContainText">
+                    <h3 class="text-md">Experience</h3>
+                    <h2 class="text-lg">
+                      Building solid experience through personal projects,
+                      courses, and continuous learning as a
+                      <span>Front-End Developer</span>
+                    </h2>
+                  </div>
+
+                  <!-- Timeline -->
+                  <div class="Timeline">
+                    <div class="TimelineItem">
+                      <div class="Dot"></div>
+                      <div class="Content">
+                        <h3 class="text-md">Portfolio Website</h3>
+                        <p class="text-sm">
+                          Front-End Project (2025 - Present)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="TimelineItem">
+                      <div class="Dot"></div>
+                      <div class="Content">
+                        <h3 class="text-md">Desafio Css</h3>
+                        <p class="text-sm">trilha-css-desafio-01 (2025)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <!--Timeline div-->
-            <div class="Timeline">
-              <!--Timeline Itens-->
-              <div class="TimelineItem">
-                <div class="Dot"></div>
-                <div class="Content">
-                  <h3 class="text-md">Portfolio Website</h3>
-                  <p class="text-sm">Front-End Project (2025 - Present)</p>
+            <!-- Slide 2 -->
+            <div class="Contain Contain-Main">
+              <div class="ContainResume">
+                <div class="ContentArea">
+                  <div class="ContainText">
+                    <h3 class="text-md">Skill</h3>
+                    <h2 class="text-lg">
+                      With good <span>Personal</span><br />
+                      and <span>Professional</span> Skills
+                    </h2>
+                  </div>
+                  <!-- Conteudo -->
                 </div>
               </div>
-              <div class="TimelineItem">
-                <div class="Dot"></div>
-                <div class="Content">
-                  <h3 class="text-md">Desafio Css</h3>
-                  <p class="text-sm">trilha-css-desafio-01 (2025)</p>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="Contain Contain-Main">
+              <div class="ContainResume">
+                <div class="ContentArea">
+                  <div class="ContainText">
+                    <h3 class="text-md">Education</h3>
+                    <h2 class="text-lg">
+                      Learning experience<br />
+                      in a few <span>Professional Universities</span>
+                    </h2>
+                  </div>
+                  <!-- Conteudo-->
                 </div>
               </div>
+            </div>
+          </div>
+
+          <!-- DOTS FIXOS -->
+          <div class="Dots-Wrapper">
+            <div class="custom-dots">
+              <button role="button" class="owl-dot"><span></span></button>
+              <button role="button" class="owl-dot"><span></span></button>
+              <button role="button" class="owl-dot"><span></span></button>
             </div>
           </div>
         </div>
