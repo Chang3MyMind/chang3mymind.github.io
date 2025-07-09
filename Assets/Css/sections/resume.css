@@ -18,14 +18,14 @@
   gap: 400px;
 }
 
-/* Texto à esquerda */
+/* Tamanho do texto à esquerda */
 .ContainText {
   max-width: 500px;
 }
 
+/*Set de cores*/
 .ContainTitle h1 {
   color: var(--accent-color-light);
-  margin: 0;
 }
 
 .ContainText h3 {
@@ -65,7 +65,7 @@
   border: 2px solid var(--bg-color);
 }
 
-/*Timeline Text*/
+/*Timeline Text set de cores*/
 .Content h3 {
   color: var(--text-color);
   margin-bottom: 0;
@@ -75,6 +75,7 @@
   color: var(--text-color);
 }
 
+/*Configiração do titulo e dos dots fora do carrosel*/
 .Resume-Header,
 .Dots-Wrapper {
   max-width: 1280px;
@@ -85,8 +86,9 @@
   margin: 20px;
 }
 
+/*Configuração dos dots*/
 .custom-dots .owl-dot {
-  all: unset; /* remove os estilos padrão */
+  all: unset;
   display: inline-block;
   cursor: pointer;
 }
@@ -101,19 +103,6 @@
   display: flex;
 }
 
-.custom-dots .owl-dot span {
-  display: block;
-  background-color: white;
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
-  margin: 0 5px;
-}
-
-.custom-dots .owl-dot.active span {
-  background-color: red;
-}
-
 .owl-carousel .owl-stage-outer {
   overflow: hidden;
 }
@@ -122,6 +111,22 @@
   display: flex;
 }
 
+/*Customização dos dots*/
+.custom-dots .owl-dot span {
+  display: block;
+  background-color: var(--box-bg);
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 1px solid var(--accent-color);
+}
+
+.custom-dots .owl-dot.active span {
+  background-color: var(--accent-color-light);
+}
+
+/*Customização do carrossel por inteiro*/
 .Contain-carousel {
   max-width: 1280px;
   background-color: var(--box-bg);
