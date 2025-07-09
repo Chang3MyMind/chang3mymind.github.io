@@ -1,20 +1,16 @@
 .BtBlue {
-  background: linear-gradient(
-    to right,
-    var(--accent-color),
-    var(--accent-color-light)
-  );
+  background-color: var(--accent-color-light);
   color: var(--text-color);
+  box-shadow: inset 0 0 0 0 var(--accent-color);
   border: none;
   padding: 12px 24px;
   font-weight: bold;
-  cursor: pointer;
-  transition: transform 0.2s ease, filter 0.3s ease;
+  transition: ease-out 0.3s;
 }
 
 .BtBlue:hover {
-  transform: scale(1.01);
-  filter: brightness(1.01);
+  box-shadow: inset 120px 0 0 0 var(--accent-color);
+  cursor: pointer;
 }
 
 .BtTransparent {
@@ -24,15 +20,26 @@
   padding: 12px 24px;
   font-weight: bold;
   cursor: pointer;
-  transition: transform 0.2s ease, filter 0.3s ease;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.BtTransparent:hover {
+.BtTransparent::after {
+  content: "";
+  position: absolute;
+  height: 107%;
+  width: 102%;
   background: linear-gradient(
     to right,
     var(--accent-color),
     var(--accent-color-light)
   );
-  color: var(--text-color);
-  border: 1px solid var(--accent-color);
+  z-index: -1;
+}
+
+.BtTransparent:hover {
+  z-index: 0;
 }
