@@ -9,7 +9,7 @@ $(document).ready(function () {
     dotsContainer: ".custom-dots", //Bolinhas personalizadas de navegação
     nav: false, //Tira as setas de navegação
     autoplay: false, //Desativa o autoplay
-    smartSpeed: 800, //suaviza a passada de slide
+    smartSpeed: 1000, //suaviza a passada de slide
     responsive: {
       //resonsividade
       0: { items: 1 },

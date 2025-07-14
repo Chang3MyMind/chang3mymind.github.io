@@ -15,7 +15,7 @@
 
 .ContentArea {
   display: flex;
-  gap: 300px;
+  gap: clamp(100px, 12vw, 300px);
   align-items: flex-start;
   /* Garante que o conteúdo não se ajuste verticalmente quando a skill some */
   min-height: 400px;
@@ -24,6 +24,7 @@
 /* Tamanho do texto à esquerda */
 .ContainText {
   max-width: 500px;
+  width: 100%;
   flex-shrink: 0;
   min-height: 180px;
 }
@@ -155,6 +156,10 @@
   width: 100%;
 }
 
+.skill-tittle {
+  margin-bottom: 0px;
+}
+
 .Card-body {
   padding: 10px;
   width: 100%;
@@ -196,5 +201,5 @@
   max-height: 520px;
   opacity: 1;
   overflow: hidden;
-  transition: max-height 2s ease, opacity 2s ease;
+  transition: max-height 2.2s ease, opacity 2.2s ease;
 }

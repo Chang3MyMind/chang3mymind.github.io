@@ -3,7 +3,7 @@ nav {
   width: 100%;
   max-width: 1280px;
   margin: auto;
-  height: 30px;
+  height: auto;
   justify-self: center;
   padding: 20px;
 }
@@ -19,7 +19,6 @@ nav.fixed {
   background-color: var(--box-bg);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
   z-index: 900;
-  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,10 +60,11 @@ nav a {
 
 .Menu a {
   color: var(--text-color);
+  margin-bottom: 0px; /*Zerando margin do global*/
 }
 
 .Logo a {
-  font-size: 20px;
+  margin-bottom: 0px; /*Zerando margin do global*/
 
   /* Texto em gradiente de cores*/
   background: linear-gradient(
@@ -90,6 +90,18 @@ nav a {
   display: none;
 }
 
+/* Animação dos itens do menu */
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 /*Menu Desktop*/
 @media (min-width: 769px) {
   .MenuLinks {
@@ -103,6 +115,18 @@ nav a {
 
 /* Menu Mobile */
 @media (max-width: 768px) {
+  /* Ajuste de Menu */
+
+  nav {
+    padding: 0;
+  }
+
+  .ContainNav {
+    max-width: 94%;
+    margin: auto;
+  }
+
+  /* Menu Hamburgue */
   .MenuLinks {
     align-items: flex-start;
     flex-direction: column;
@@ -111,7 +135,8 @@ nav a {
     position: fixed;
     top: 0;
     right: -300px;
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     height: 100vh;
     padding: 60px 20px;
     border-radius: 0;
@@ -126,7 +151,6 @@ nav a {
 
   .MenuIcon {
     display: block;
-    font-size: 28px;
     color: var(--text-color);
     cursor: pointer;
     z-index: 902;
@@ -151,21 +175,8 @@ nav a {
     opacity: 1;
     pointer-events: all;
   }
-}
 
-/* Animação dos itens do menu */
-@keyframes fadeSlide {
-  from {
-    opacity: 0;
-    transform: translateX(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@media (max-width: 768px) {
+  /* Animação */
   .MenuLinks li {
     opacity: 0;
   }
@@ -195,22 +206,42 @@ nav a {
   }
 }
 
-@media (max-width: 510px) {
-  .Logo a {
-    font-size: 20px;
+/* Ajuste para monitores maiores */
+
+@media (min-width: 1440px) {
+  nav {
+    max-width: 100%;
   }
 
-  .MenuLinks {
-    width: 200px;
+  .ContainNav {
+    max-width: 94%;
   }
 }
 
-@media (max-width: 370px) {
-  .Logo a {
-    font-size: 15px;
+/* Ajustes para mobile */
+
+@media (max-width: 1024px) {
+  nav {
+    max-width: 100%;
+  }
+
+  .ContainNav {
+    max-width: 94%;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .ContainNav {
+    max-width: 94%;
   }
 
   .MenuLinks {
-    width: 150px;
+    max-width: 100px;
+    width: 100%;
   }
 }

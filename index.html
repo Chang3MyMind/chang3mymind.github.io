@@ -44,22 +44,22 @@
   <body>
     <header>
       <!--Section Nav-->
-      <nav id="Nav">
+      <nav id="Nav" role="navigation" aria-label="Main navigation">
         <div class="ContainNav">
           <ul class="Logo">
             <li>
-              <a href="./">Matheus</a>
+              <a class="text-md" href="./">Matheus</a>
             </li>
           </ul>
           <div class="Menu">
             <div class="MenuIcon">&#9776;</div>
             <div class="Overlay"></div>
             <ul class="MenuLinks">
-              <li><a href="#Home">Home</a></li>
-              <li><a href="#About">About</a></li>
-              <li><a href="#Resume">Resume</a></li>
-              <!-- Sem link ainda <li><a href="">Portfolio</a></li> -->
-              <!-- Sem link ainda <li><a href="">Contact</a></li>-->
+              <li><a class="text-sm" href="#Home">Home</a></li>
+              <li><a class="text-sm" href="#About">About</a></li>
+              <li><a class="text-sm" href="#Resume">Resume</a></li>
+              <!-- Sem link ainda <li><a class="text-sm" href="">Portfolio</a></li> -->
+              <!-- Sem link ainda <li><a class="text-sm" href="">Contact</a></li> -->
             </ul>
           </div>
         </div>
@@ -71,7 +71,11 @@
         <div class="Contain-Description">
           <h1 class="Text text-md">I AM MATHEUS MATTOS</h1>
           <h2 class="Text text-xlg Developer">Front-End Developer</h2>
-          <button type="button" class="BtBlue" aria-label="Open contact form">
+          <button
+            type="button"
+            class="BtTransparent"
+            aria-label="Open contact form"
+          >
             Contact Me
           </button>
         </div>
@@ -163,7 +167,7 @@
                   </div>
 
                   <!-- Conteudo -->
-                  <div class="Content-card">
+                  <div class="Contain-card">
                     <div class="Card">
                       <div class="Card-header">
                         <h2 class="Text-card">
@@ -174,7 +178,7 @@
                             data-target="#collapse1"
                           >
                             <div class="Dot"></div>
-                            Personal Skill
+                            <span class="text-md">Personal Skill</span>
                           </button>
                         </h2>
                       </div>
@@ -183,40 +187,7 @@
                           <ul class="Personal-skill">
                             <li>
                               <div class="skill-tittle">
-                                <span>Communication</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 85%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span>Self-learning</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 90%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span>Initiative</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 90%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span>Problem Solving</span>
+                                <span class="text-sm">Communication</span>
                               </div>
                               <div class="progress">
                                 <div
@@ -227,7 +198,18 @@
                             </li>
                             <li>
                               <div class="skill-tittle">
-                                <span>Commitment</span>
+                                <span class="text-sm">Self-learning</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 90%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span class="text-sm">Initiative</span>
                               </div>
                               <div class="progress">
                                 <div
@@ -238,7 +220,29 @@
                             </li>
                             <li>
                               <div class="skill-tittle">
-                                <span>Team Work</span>
+                                <span class="text-sm">Problem Solving</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 75%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span class="text-sm">Commitment</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 90%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span class="text-sm">Team Work</span>
                               </div>
                               <div class="progress">
                                 <div
@@ -261,16 +265,16 @@
                             data-target="#collapse2"
                           >
                             <div class="Dot"></div>
-                            Professional Skill
+                            <span class="text-md">Professional Skill</span>
                           </button>
                         </h2>
                       </div>
                       <div id="collapse2" class="collapse collapse2 hidden">
                         <div class="Card-body">
-                          <ul class="Personal-skill">
+                          <ul class="Professional Skill">
                             <li>
                               <div class="skill-tittle">
-                                <span>HTML5</span>
+                                <span class="text-sm">HTML5</span>
                               </div>
                               <div class="progress">
                                 <div
@@ -281,18 +285,40 @@
                             </li>
                             <li>
                               <div class="skill-tittle">
-                                <span>CSS3</span>
+                                <span class="text-sm">CSS3</span>
                               </div>
                               <div class="progress">
                                 <div
                                   class="progress-bar"
-                                  style="width: 75%"
+                                  style="width: 85%"
                                 ></div>
                               </div>
                             </li>
                             <li>
                               <div class="skill-tittle">
-                                <span>JavaScript</span>
+                                <span class="text-sm">JavaScript</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 60%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span class="text-sm">Git & GitHub</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 65%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span class="text-sm">Responsive Design</span>
                               </div>
                               <div class="progress">
                                 <div
@@ -303,34 +329,12 @@
                             </li>
                             <li>
                               <div class="skill-tittle">
-                                <span>Git & GitHub</span>
+                                <span class="text-sm">Code Organization</span>
                               </div>
                               <div class="progress">
                                 <div
                                   class="progress-bar"
                                   style="width: 75%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span>Responsive Design</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 80%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span>Code Organization</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 90%"
                                 ></div>
                               </div>
                             </li>
