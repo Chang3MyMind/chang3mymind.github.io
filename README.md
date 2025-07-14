@@ -10,20 +10,28 @@ Este projeto é parte do meu desenvolvimento profissional.
 
 ## 🛠️ Tecnologias Utilizadas
 
-- 💻 **HTML5**
-- 🎨 **CSS3** (Flexbox, Grid, Responsividade)
-- 🔥 **JavaScript Vanilla** (sem frameworks)
+- 💻 HTML5
+
+- 🎨 CSS3
+
+- 🧠 JavaScript Vanilla
+
+- 🛠️ Git & GitHub
+
+- 🧩 Owl Carousel 2
+
+- 🌐 Boas Práticas Web
 
 ## ✨ Funcionalidades
 
-- ✅ Layout Responsivo
-- ✅ Menu com animação para mobile (hamburguer menu)
-- ✅ Efeito de transição e gradientes modernos
-- ✅ Sessão Home com apresentação pessoal
-- ✅ Sessão About com um breve resumo sobre o que eu faço
-- 🚧 Sessão Resume com meus projetos ja feitos (Sessão skills e escolaridade em construção)
-- 🚧 Menu com botões para mudar entre a sessão projetos, escolaridade e skills (Em construção)
-- 🚀 Pensado para fácil expansão com novas seções: Portfolio e Contact
+- ✅ Menu com animação para mobile. (hamburguer menu)
+- ✅ Efeito de transição e gradientes modernos.
+- ✅ Sessão Home com apresentação pessoal.
+- ✅ Sessão About com um breve resumo sobre o que eu faço.
+- ✅ Sessão Resume com meus projetos ja feitos.
+- ✅ Menu com botões para mudar entre a sessão projetos, escolaridade e skills.
+- 🚧 Transformar todo site até agora em Responsivo.
+- 🚧 Construção da nova seção Portfolio. (Em construção)
 
 ## 🖥️ Como Executar o Projeto Localmente
 
@@ -41,21 +49,19 @@ Acesse a pasta do projeto e execute abrindo o arquivo index.html no seu navegado
 
 ## 🚀 Próximas Implementações
 
-- Finalizar a seção Resume
+- Criar seção Portfolio.
 
-- Criar menu com botões para sessão resume
+- Criar seção Contact com formulário funcional.
 
-- Criar seção Portfolio
+- Botão na seção Home totalmente funcional
 
-- Criar seção Contact com formulário funcional
-
-- Formatar Com Css Grid
+- Implementar o React no site.
 
 ## Licença
 
 [Creative Commons by nc 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
-## Autores
+## Autor
 
 - [@Chang3MyMind](https://www.github.com/Chang3MyMind)
 
