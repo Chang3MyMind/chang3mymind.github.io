@@ -58,8 +58,8 @@
               <li><a href="#Home">Home</a></li>
               <li><a href="#About">About</a></li>
               <li><a href="#Resume">Resume</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
+              <!-- Sem link ainda <li><a href="">Portfolio</a></li> -->
+              <!-- Sem link ainda <li><a href="">Contact</a></li>-->
             </ul>
           </div>
         </div>
@@ -71,20 +71,23 @@
         <div class="Contain-Description">
           <h1 class="Text text-md">I AM MATHEUS MATTOS</h1>
           <h2 class="Text text-xlg Developer">Front-End Developer</h2>
-          <button type="button" class="BtTransparent" aria-label="Open Menu">
+          <button type="button" class="BtBlue" aria-label="Open contact form">
             Contact Me
           </button>
         </div>
         <div class="Picture">
-          <img src="Assets/Img/Face_Foto.png" alt="A picture of a men" />
+          <img
+            src="Assets/Img/Face_Foto.png"
+            alt="Black and white photo of a 21-year-old young man with a short beard, no mustache, tied-back hair, and two small receding areas."
+          />
         </div>
       </div>
 
       <!--Section About-->
       <section id="About" class="Contain">
         <div class="ContainLeft">
-          <h1 class="text-md">About Me</h1>
-          <h2 class="text-xlg">I am Front-End Developer</h2>
+          <h2 class="text-md">About Me</h2>
+          <h3 class="text-xlg">I am Front-End Developer</h3>
           <p class="text-sm">
             Desenvolvedor Front-End focado em criar experiências digitais
             modernas, responsivas e intuitivas. Apaixonado por transformar
@@ -94,7 +97,7 @@
         <div class="About-Picture">
           <img
             src="https://www.shutterstock.com/image-vector/picture-icon-260nw-323592404.jpg"
-            alt="Minha Foto"
+            alt="Photo used as a template only."
           />
         </div>
       </section>
@@ -105,7 +108,7 @@
           <!-- TÍTULO FIXO -->
           <div class="Resume-Header">
             <div class="ContainTitle">
-              <h1 class="text-lg">My Resume</h1>
+              <h2 class="text-lg">My Resume</h2>
             </div>
           </div>
 
@@ -117,11 +120,11 @@
                 <div class="ContentArea">
                   <div class="ContainText">
                     <h3 class="text-md">Experience</h3>
-                    <h2 class="text-lg">
+                    <h4 class="text-lg">
                       Building solid experience through personal projects,
                       courses, and continuous learning as a
                       <span>Front-End Developer</span>
-                    </h2>
+                    </h4>
                   </div>
 
                   <!-- Timeline -->
@@ -129,7 +132,7 @@
                     <div class="TimelineItem">
                       <div class="Dot"></div>
                       <div class="Content">
-                        <h3 class="text-md">Portfolio Website</h3>
+                        <h5 class="text-md">Portfolio Website</h5>
                         <p class="text-sm">
                           Front-End Project (2025 - Present)
                         </p>
@@ -138,7 +141,7 @@
                     <div class="TimelineItem">
                       <div class="Dot"></div>
                       <div class="Content">
-                        <h3 class="text-md">Desafio Css</h3>
+                        <h5 class="text-md">Desafio Css</h5>
                         <p class="text-sm">trilha-css-desafio-01 (2025)</p>
                       </div>
                     </div>
@@ -150,15 +153,192 @@
             <!-- Slide 2 -->
             <div class="Contain Contain-Main">
               <div class="ContainResume">
-                <div class="ContentArea">
+                <div class="ContentArea Skill">
                   <div class="ContainText">
                     <h3 class="text-md">Skill</h3>
-                    <h2 class="text-lg">
+                    <h4 class="text-lg">
                       With good <span>Personal</span><br />
                       and <span>Professional</span> Skills
-                    </h2>
+                    </h4>
                   </div>
+
                   <!-- Conteudo -->
+                  <div class="Content-card">
+                    <div class="Card">
+                      <div class="Card-header">
+                        <h2 class="Text-card">
+                          <button
+                            type="button"
+                            id="btn-collapse1"
+                            class="bt-collapse"
+                            data-target="#collapse1"
+                          >
+                            <div class="Dot"></div>
+                            Personal Skill
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapse1" class="collapse collapse1 show">
+                        <div class="Card-body">
+                          <ul class="Personal-skill">
+                            <li>
+                              <div class="skill-tittle">
+                                <span>Communication</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 75%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span>Self-learning</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 85%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span>Initiative</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 70%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span>Problem Solving</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 75%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span>Commitment</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 90%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span>Team Work</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 85%"
+                                ></div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="Card">
+                      <div class="Card-header">
+                        <h2 class="Text-card">
+                          <button
+                            type="button"
+                            id="btn-collapse2"
+                            class="bt-collapse"
+                            data-target="#collapse2"
+                          >
+                            <div class="Dot"></div>
+                            Professional Skill
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapse2" class="collapse collapse2 hidden">
+                        <div class="Card-body">
+                          <ul class="Personal-skill">
+                            <li>
+                              <div class="skill-tittle">
+                                <span>HTML5</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 70%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span>CSS3</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 75%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span>JavaScript</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 60%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span>Git & GitHub</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 60%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span>Responsive Design</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 70%"
+                                ></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="skill-tittle">
+                                <span>Code Organization</span>
+                              </div>
+                              <div class="progress">
+                                <div
+                                  class="progress-bar"
+                                  style="width: 80%"
+                                ></div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -169,12 +349,31 @@
                 <div class="ContentArea">
                   <div class="ContainText">
                     <h3 class="text-md">Education</h3>
-                    <h2 class="text-lg">
+                    <h4 class="text-lg">
                       Learning experience<br />
                       in a few <span>Professional Universities</span>
-                    </h2>
+                    </h4>
                   </div>
+
                   <!-- Conteudo-->
+                  <div class="Timeline">
+                    <div class="TimelineItem">
+                      <div class="Dot"></div>
+                      <div class="Content">
+                        <h5 class="text-md">Ensino Médio Técnico</h5>
+                        <p class="text-sm">
+                          IFRJ, Arraial do Cabo (2019 - 2022)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="TimelineItem">
+                      <div class="Dot"></div>
+                      <div class="Content">
+                        <h5 class="text-md">Ciência da Computação</h5>
+                        <p class="text-sm">UniFacVest - (2023 - Present)</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

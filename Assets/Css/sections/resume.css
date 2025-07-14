@@ -15,16 +15,21 @@
 
 .ContentArea {
   display: flex;
-  gap: 400px;
+  gap: 300px;
+  align-items: flex-start;
+  /* Garante que o conteúdo não se ajuste verticalmente quando a skill some */
+  min-height: 400px;
 }
 
 /* Tamanho do texto à esquerda */
 .ContainText {
   max-width: 500px;
+  flex-shrink: 0;
+  min-height: 180px;
 }
 
 /*Set de cores*/
-.ContainTitle h1 {
+.ContainTitle h2 {
   color: var(--accent-color-light);
 }
 
@@ -32,11 +37,11 @@
   color: var(--accent-color-light);
 }
 
-.ContainText h2 {
+.ContainText h4 {
   color: var(--text-color);
 }
 
-.ContainText h2 span {
+.ContainText h4 span {
   color: var(--accent-color-light);
 }
 
@@ -66,7 +71,7 @@
 }
 
 /*Timeline Text set de cores*/
-.Content h3 {
+.Content h5 {
   color: var(--text-color);
   margin-bottom: 0;
 }
@@ -135,4 +140,61 @@
   overflow: hidden;
   position: relative;
   padding: 20px;
+}
+
+/*Cards skill*/
+
+.Card {
+  display: flex;
+  min-width: 500px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.Card-text {
+  width: 100%;
+}
+
+.Card-body {
+  padding: 10px;
+  width: 100%;
+}
+
+.Card-body li {
+  margin-bottom: 10px;
+}
+
+/* Progress container */
+.progress {
+  height: 6px;
+  max-width: 400px;
+  width: 100%;
+  background-color: #444; /* ou var(--bg-color) */
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Barra colorida */
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    var(--accent-color),
+    var(--accent-color-light)
+  );
+  border-radius: 5px;
+}
+
+.hidden {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.8s ease, opacity 0.8s ease;
+}
+
+.show {
+  max-height: 520px;
+  opacity: 1;
+  overflow: hidden;
+  transition: max-height 2s ease, opacity 2s ease;
 }

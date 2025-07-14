@@ -43,3 +43,13 @@
 .BtTransparent:hover {
   z-index: 0;
 }
+
+.bt-collapse {
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  padding-top: 3px;
+}

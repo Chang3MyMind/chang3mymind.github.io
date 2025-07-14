@@ -3,11 +3,11 @@
   margin-left: 20px;
 }
 
-.ContainLeft h1 {
+.ContainLeft h2 {
   color: var(--accent-color-light);
 }
 
-.ContainLeft h2 {
+.ContainLeft h3 {
   color: var(--text-color);
 }
 
