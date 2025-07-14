@@ -41,11 +41,7 @@ Este projeto é parte do meu desenvolvimento profissional.
 git clone hhttps://github.com/Chang3MyMind/chang3mymind.github.io.git
 ```
 
-2️⃣ Clone o repositório:
-
-```
-Acesse a pasta do projeto e execute abrindo o arquivo index.html no seu navegador preferido.
-```
+2️⃣ Acesse a pasta do projeto e execute abrindo o arquivo index.html no seu navegador preferido.
 
 ## 🚀 Próximas Implementações
 
