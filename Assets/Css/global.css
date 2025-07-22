@@ -45,26 +45,26 @@ h4 {
 }
 
 .text-xlg {
-  font-size: clamp(20px, 2.5vw, 48px);
+  font-size: clamp(20px, 2.9vw, 48px);
   margin-bottom: 20px;
 }
 
 .text-lg {
-  font-size: clamp(18px, 2vw, 38px);
+  font-size: clamp(18px, 2.1vw, 38px);
   margin-bottom: 20px;
 }
 
 .text-md {
-  font-size: clamp(16px, 1.5vw, 26px);
+  font-size: clamp(16px, 1.05vw, 26px);
   margin-bottom: 20px;
 }
 
 .text-sm {
-  font-size: clamp(14px, 1vw, 20px);
+  font-size: clamp(14px, 0.65vw, 20px);
   margin-bottom: 20px;
 }
 
 .text-xsm {
-  font-size: clamp(12px, 1vw, 15px);
+  font-size: clamp(12px, 0.35vw, 15px);
   margin-bottom: 30px;
 }
