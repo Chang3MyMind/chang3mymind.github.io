@@ -53,21 +53,3 @@
   font-weight: bold;
   padding-top: 3px;
 }
-
-@media (min-width: 1440px) {
-  .BtBlue {
-    padding: 18px 30px;
-    font-size: 20px;
-  }
-
-  .BtBlue:hover {
-    box-shadow: inset 170px 0 0 0 var(--accent-color);
-    cursor: pointer;
-  }
-
-  .BtTransparent {
-    border: 2px solid var(--accent-color);
-    padding: 18px 30px;
-    font-size: 20px;
-  }
-}

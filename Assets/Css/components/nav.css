@@ -1,11 +1,7 @@
 nav {
   background-color: var(--box-bg);
-  width: 100%;
-  max-width: 1280px;
-  margin: auto;
-  height: auto;
-  justify-self: center;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 /*Barra de navegação fixa ao scrolar*/
@@ -14,7 +10,7 @@ nav.fixed {
   top: 0;
   left: 0;
   right: 0;
-  max-width: none;
+  height: auto;
   margin: 0;
   background-color: var(--box-bg);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);

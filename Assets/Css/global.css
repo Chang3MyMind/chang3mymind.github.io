@@ -1,5 +1,4 @@
 /*Base*/
-@import url(base/breakpoints.css);
 @import url(base/reset.css);
 @import url(base/variables.css);
 
@@ -20,8 +19,17 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css);
 
+/* Responsividade */
+@import url(base/breakpoints.css);
+
 /*Padronização de estilos*/
 body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 10px;
+  row-gap: 65px;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
   font-family: "Poppins", sans-serif;
   color: var(--text-color);
   background-color: var(--bg-color);

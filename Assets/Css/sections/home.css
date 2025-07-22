@@ -1,3 +1,22 @@
+#home {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-column: 1 / -1;
+  grid-row: 1 / span 1;
+  min-height: 500px;
+  background-color: var(--box-bg);
+}
+
+.home-right {
+  grid-column: 1 / span 5;
+  margin: auto;
+}
+
+.home-left {
+  grid-column: 9 / span 1;
+  margin: auto;
+}
+
 .Picture {
   width: 200px;
   height: 200px;
@@ -10,7 +29,7 @@
   border-radius: 16px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
   background-color: var(--box-bg);
-  margin-right: 70px;
+  /* margin-right: 70px; */
 }
 
 .Picture img {
@@ -21,17 +40,17 @@
   transform: rotate(-45deg);
 }
 
-.Contain-Description {
+.Content-Description {
   background-color: var(--box-bg);
   margin-left: 30px;
 }
 
-.Contain-Description .Text {
+.Content-Description .Text {
   background-color: var(--box-bg);
   color: var(--text-color);
 }
 
-.Contain-Description .Developer {
+.Content-Description .Developer {
   /* Texto em gradiente de cores*/
   background: linear-gradient(
     to right,

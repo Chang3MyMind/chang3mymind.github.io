@@ -55,7 +55,7 @@
             <div class="MenuIcon">&#9776;</div>
             <div class="Overlay"></div>
             <ul class="MenuLinks">
-              <li><a class="text-sm" href="#Home">Home</a></li>
+              <li><a class="text-sm" href="#home">Home</a></li>
               <li><a class="text-sm" href="#About">About</a></li>
               <li><a class="text-sm" href="#Resume">Resume</a></li>
               <!-- Sem link ainda <li><a class="text-sm" href="">Portfolio</a></li> -->
@@ -67,28 +67,32 @@
     </header>
     <main>
       <!--Section Home-->
-      <div id="Home" class="Contain">
-        <div class="Contain-Description">
-          <h1 class="Text text-md">I AM MATHEUS MATTOS</h1>
-          <h2 class="Text text-xlg Developer">Front-End Developer</h2>
-          <button
-            type="button"
-            class="BtTransparent"
-            aria-label="Open contact form"
-          >
-            Contact Me
-          </button>
+      <section id="home">
+        <div class="home-right">
+          <div class="Content-Description">
+            <h1 class="Text text-md">I AM MATHEUS MATTOS</h1>
+            <h2 class="Text text-xlg Developer">Front-End Developer</h2>
+            <button
+              type="button"
+              class="BtTransparent"
+              aria-label="Open contact form"
+            >
+              Contact Me
+            </button>
+          </div>
         </div>
-        <div class="Picture">
-          <img
-            src="Assets/Img/Face_Foto.png"
-            alt="Black and white photo of a 21-year-old young man with a short beard, no mustache, tied-back hair, and two small receding areas."
-          />
+        <div class="home-left">
+          <div class="Picture">
+            <img
+              src="Assets/Img/Face_Foto.png"
+              alt="Black and white photo of a 21-year-old young man with a short beard, no mustache, tied-back hair, and two small receding areas."
+            />
+          </div>
         </div>
-      </div>
+      </section>
 
       <!--Section About-->
-      <section id="About" class="Contain">
+      <!-- <section id="About" class="Contain">
         <div class="ContainLeft">
           <h2 class="text-md">About Me</h2>
           <h3 class="text-xlg">I am Front-End Developer</h3>
@@ -104,295 +108,9 @@
             alt="Photo used as a template only."
           />
         </div>
-      </section>
+      </section> -->
 
       <!--Section Resume-->
-      <section id="Resume">
-        <div class="Contain-carousel">
-          <!-- TÍTULO FIXO -->
-          <div class="Resume-Header">
-            <div class="ContainTitle">
-              <h2 class="text-lg">My Resume</h2>
-            </div>
-          </div>
-
-          <!-- CARROSSEL -->
-          <div class="owl-carousel">
-            <!-- Slide 1 -->
-            <div class="Contain Contain-Main">
-              <div class="ContainResume">
-                <div class="ContentArea">
-                  <div class="ContainText">
-                    <h3 class="text-md">Experience</h3>
-                    <h4 class="text-lg">
-                      Building solid experience through personal projects,
-                      courses, and continuous learning as a
-                      <span>Front-End Developer</span>
-                    </h4>
-                  </div>
-
-                  <!-- Timeline -->
-                  <div class="Timeline">
-                    <div class="TimelineItem">
-                      <div class="Dot"></div>
-                      <div class="Content">
-                        <h5 class="text-md">Portfolio Website</h5>
-                        <p class="text-sm">
-                          Front-End Project (2025 - Present)
-                        </p>
-                      </div>
-                    </div>
-                    <div class="TimelineItem">
-                      <div class="Dot"></div>
-                      <div class="Content">
-                        <h5 class="text-md">Desafio Css</h5>
-                        <p class="text-sm">trilha-css-desafio-01 (2025)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="Contain Contain-Main">
-              <div class="ContainResume">
-                <div class="ContentArea Skill">
-                  <div class="ContainText">
-                    <h3 class="text-md">Skill</h3>
-                    <h4 class="text-lg">
-                      With good <span>Personal</span><br />
-                      and <span>Professional</span> Skills
-                    </h4>
-                  </div>
-
-                  <!-- Conteudo -->
-                  <div class="Contain-card">
-                    <div class="Card">
-                      <div class="Card-header">
-                        <h2 class="Text-card">
-                          <button
-                            type="button"
-                            id="btn-collapse1"
-                            class="bt-collapse"
-                            data-target="#collapse1"
-                          >
-                            <div class="Dot"></div>
-                            <span class="text-md">Personal Skill</span>
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapse1" class="collapse collapse1 show">
-                        <div class="Card-body">
-                          <ul class="Personal-skill">
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">Communication</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 75%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">Self-learning</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 90%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">Initiative</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 85%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">Problem Solving</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 75%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">Commitment</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 90%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">Team Work</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 70%"
-                                ></div>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="Card">
-                      <div class="Card-header">
-                        <h2 class="Text-card">
-                          <button
-                            type="button"
-                            id="btn-collapse2"
-                            class="bt-collapse"
-                            data-target="#collapse2"
-                          >
-                            <div class="Dot"></div>
-                            <span class="text-md">Professional Skill</span>
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapse2" class="collapse collapse2 hidden">
-                        <div class="Card-body">
-                          <ul class="Professional Skill">
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">HTML5</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 80%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">CSS3</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 85%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">JavaScript</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 60%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">Git & GitHub</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 65%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">Responsive Design</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 70%"
-                                ></div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="skill-tittle">
-                                <span class="text-sm">Code Organization</span>
-                              </div>
-                              <div class="progress">
-                                <div
-                                  class="progress-bar"
-                                  style="width: 75%"
-                                ></div>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 3 -->
-            <div class="Contain Contain-Main">
-              <div class="ContainResume">
-                <div class="ContentArea">
-                  <div class="ContainText">
-                    <h3 class="text-md">Education</h3>
-                    <h4 class="text-lg">
-                      Learning experience<br />
-                      in a few <span>Professional Universities</span>
-                    </h4>
-                  </div>
-
-                  <!-- Conteudo-->
-                  <div class="Timeline">
-                    <div class="TimelineItem">
-                      <div class="Dot"></div>
-                      <div class="Content">
-                        <h5 class="text-md">Ensino Médio Técnico</h5>
-                        <p class="text-sm">
-                          IFRJ, Arraial do Cabo (2019 - 2022)
-                        </p>
-                      </div>
-                    </div>
-                    <div class="TimelineItem">
-                      <div class="Dot"></div>
-                      <div class="Content">
-                        <h5 class="text-md">Ciência da Computação</h5>
-                        <p class="text-sm">UniFacVest - (2023 - Present)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- DOTS FIXOS -->
-          <div class="Dots-Wrapper">
-            <div class="custom-dots">
-              <button role="button" class="owl-dot"><span></span></button>
-              <button role="button" class="owl-dot"><span></span></button>
-              <button role="button" class="owl-dot"><span></span></button>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
     <footer></footer>
   </body>

@@ -7,7 +7,7 @@
   }
 
   .ContentArea {
-    gap: 450px !important;
+    gap: 450px;
   }
 
   /* Tamanho do texto à esquerda */
@@ -28,6 +28,23 @@
     height: 15px;
     width: 15px;
     border: 2px solid var(--accent-color);
+  }
+
+  /* Ajuste dos botões */
+  .BtBlue {
+    padding: 18px 30px;
+    font-size: 20px;
+  }
+
+  .BtBlue:hover {
+    box-shadow: inset 170px 0 0 0 var(--accent-color);
+    cursor: pointer;
+  }
+
+  .BtTransparent {
+    border: 2px solid var(--accent-color);
+    padding: 18px 30px;
+    font-size: 20px;
   }
 }
 
